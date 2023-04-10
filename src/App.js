@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-pascal-case */
 import './App.css';
+import AppBar_ from './components/appbar';
 import theme from './styles/theme';
-import { Container } from '@mui/material';
+import { Container, ThemeProvider } from '@mui/material';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
         sx={{
           bgcolor: "#fff"
         }}
-      ></Container>
+      >
+        <AppBar_ />
+      </Container>
     </ThemeProvider>
   );
 }

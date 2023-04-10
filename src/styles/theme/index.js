@@ -24,7 +24,24 @@ export const Colors = {
 };
 
 const theme = createTheme({
-
+    palette:{
+        primary:{
+            main: Colors.primary
+        },
+        secondary: {
+            main: Colors.secondary
+        },
+    },
+    components: {
+        MuiButton: {
+            defaultProps: {
+                disableRipple: true,
+                disableElevation: true
+            }
+        }
+    }
 });
 
 export default theme;
+
+// -03 : 12 : 31
