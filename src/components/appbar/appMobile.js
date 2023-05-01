@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const AppBarMobile_ = ({matches}) => {
-  return (
-    <div>AppMobile</div>
-  )
-}
+const AppBarMobile_ = ({ matches }) => {
+  return <div>AppMobile</div>;
+};
 
-export default AppBarMobile_
+export default AppBarMobile_;
