@@ -1,8 +1,10 @@
 /* eslint-disable react/jsx-pascal-case */
 import './App.css';
-import AppBar_ from './components/appbar';
+import AppBar_ from '../components/appbar/index';
 import theme from './styles/theme';
 import { Container, ThemeProvider } from '@mui/material';
+import Banner from '../components/banner';
+import { Promotions } from '../components/promotions';
 
 function App() {
   return (
@@ -14,6 +16,15 @@ function App() {
         }}
       >
         <AppBar_ />
+        <Banner />
+        <Promotions />
+        {/*
+          Title
+          Products
+          Footer
+          SearchBox
+          appdrawer
+        */}
       </Container>
     </ThemeProvider>
   );

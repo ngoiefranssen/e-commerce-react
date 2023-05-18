@@ -43,5 +43,3 @@ const theme = createTheme({
 });
 
 export default theme;
-
-// -03 : 12 : 31
