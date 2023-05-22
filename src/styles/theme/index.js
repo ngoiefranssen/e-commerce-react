@@ -19,7 +19,7 @@ export const Colors = {
   body_bg: '#f3f6f9',
   light_gray: 'rgb(230, 230, 230)',
 
-  with: '#fff',
+  white: '#fff',
   black: '#000'
 };
 

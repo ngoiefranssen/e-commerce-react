@@ -5,6 +5,7 @@ import theme from './styles/theme';
 import { Container, ThemeProvider } from '@mui/material';
 import Banner from '../components/banner';
 import { Promotions } from '../components/promotions';
+import Products from '../components/products';
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
         <AppBar_ />
         <Banner />
         <Promotions />
+        <Products />
         {/*
-          Title
-          Products
+          
           Footer
           SearchBox
           appdrawer
