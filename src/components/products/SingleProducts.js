@@ -1,9 +1,9 @@
-import React from 'react';
+// import React from 'react';
 
-const SingleProducts = ({ product, matches }) => {
-  return <>Hello</>;
-};
+// const SingleProducts = ({ product, matches }) => {
+//   return <>Hello</>;
+// };
 
-export default SingleProducts;
+// export default SingleProducts;
 
-//  02h: 00: 00
+// //  02h: 00: 00
