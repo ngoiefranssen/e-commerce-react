@@ -1,9 +1,14 @@
-import React from 'react';
-
 const SingleProducts = ({ product, matches }) => {
-  return <>Hello</>;
+  return {
+    /**
+      
+      Products
+      Image
+      Meta
+      Actions
+      Footer
+     */
+  };
 };
 
 export default SingleProducts;
-
-//  02h: 00: 00
