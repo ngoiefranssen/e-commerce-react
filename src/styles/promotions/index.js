@@ -7,15 +7,16 @@ export const PromotionsContainer = styled(Box)(({ theme }) => ({
   },
   display: 'flex',
   justifyContent: 'center',
-  alignItems: '20px 0px 20px 0px',
-  overflow: 'bidden',
+  alignItems: 'center',
+  padding: '20px 0px 20px 0px',
+  overflow: 'hidden',
   background: Colors.secondary
 }));
 
 export const MessageText = styled(Typography)(({ theme }) => ({
   fontFamily: '"Montez", "cursive"',
   [theme.breakpoints.up('md')]: {
-    fontSize: '3em'
+    fontSize: '3rem'
   },
   color: Colors.white,
   fontSize: '1.5rem'
