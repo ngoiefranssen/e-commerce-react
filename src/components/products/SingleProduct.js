@@ -15,18 +15,17 @@ import useDialogModal from '../../hooks/useDialogModal';
 import ProductDetail from '../productdetail';
 import ProductMeta from './ProductMeta';
 
-const SingleProduct = ({ product, matches }) => {
+export default function SingleProduct({ product, matches }) {
   const [ProductDetailDialog, showProductDetailDialog] = useDialogModal(ProductDetail);
+
   const [showOptions, setShowOptions] = useState(false);
 
   const handleMouseEnter = () => {
     setShowOptions(true);
   };
-
   const handleMouseLeave = () => {
     setShowOptions(false);
   };
-
   return (
     <>
       <Product onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -54,6 +53,4 @@ const SingleProduct = ({ product, matches }) => {
       <ProductDetailDialog product={product} />
     </>
   );
-};
-
-export default SingleProduct;
+}

@@ -4,6 +4,7 @@ import { AppBarContainer, AppBarHeader } from '../../styles/appBar';
 import { IconButton, MenuItem } from '@mui/material';
 import { Search } from '@mui/icons-material';
 import Actions from './Actions';
+import { useUIContext } from '../../context/ui';
 
 // eslint-disable-next-line no-unused-vars
 const AppBarMobile_ = ({ Matches }) => {

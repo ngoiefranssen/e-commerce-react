@@ -7,7 +7,7 @@ export const products = [
     discountPercentage: 12.96,
     rating: 4.69,
     stock: 94,
-    brand: 'Apple',
+    name: 'Apple',
     category: 'smartphones',
     thumbnail: 'https://i.dummyjson.com/data/products/1/thumbnail.jpg',
     images: [
@@ -27,7 +27,7 @@ export const products = [
     discountPercentage: 17.94,
     rating: 4.44,
     stock: 34,
-    brand: 'Apple',
+    name: 'Apple',
     category: 'smartphones',
     thumbnail: 'https://i.dummyjson.com/data/products/2/thumbnail.jpg',
     images: [
@@ -45,7 +45,7 @@ export const products = [
     discountPercentage: 15.46,
     rating: 4.09,
     stock: 36,
-    brand: 'Samsung',
+    name: 'Samsung',
     category: 'smartphones',
     thumbnail: 'https://i.dummyjson.com/data/products/3/thumbnail.jpg',
     images: ['https://i.dummyjson.com/data/products/3/1.jpg']
@@ -58,7 +58,7 @@ export const products = [
     discountPercentage: 17.91,
     rating: 4.3,
     stock: 123,
-    brand: 'OPPO',
+    name: 'OPPO',
     category: 'smartphones',
     thumbnail: 'https://i.dummyjson.com/data/products/4/thumbnail.jpg',
     images: [
@@ -78,7 +78,7 @@ export const products = [
     discountPercentage: 10.58,
     rating: 4.09,
     stock: 32,
-    brand: 'Huawei',
+    name: 'Huawei',
     category: 'smartphones',
     thumbnail: 'https://i.dummyjson.com/data/products/5/thumbnail.jpg',
     images: [
@@ -95,7 +95,7 @@ export const products = [
     discountPercentage: 11.02,
     rating: 4.57,
     stock: 83,
-    brand: 'Apple',
+    name: 'Apple',
     category: 'laptops',
     thumbnail: 'https://i.dummyjson.com/data/products/6/thumbnail.png',
     images: [
@@ -114,7 +114,7 @@ export const products = [
     discountPercentage: 4.15,
     rating: 4.25,
     stock: 50,
-    brand: 'Samsung',
+    name: 'Samsung',
     category: 'laptops',
     thumbnail: 'https://i.dummyjson.com/data/products/7/thumbnail.jpg',
     images: [
@@ -133,7 +133,7 @@ export const products = [
     discountPercentage: 10.23,
     rating: 4.43,
     stock: 68,
-    brand: 'Microsoft Surface',
+    name: 'Microsoft Surface',
     category: 'laptops',
     thumbnail: 'https://i.dummyjson.com/data/products/8/thumbnail.jpg',
     images: [
@@ -152,7 +152,7 @@ export const products = [
     discountPercentage: 11.83,
     rating: 4.54,
     stock: 96,
-    brand: 'Infinix',
+    name: 'Infinix',
     category: 'laptops',
     thumbnail: 'https://i.dummyjson.com/data/products/9/thumbnail.jpg',
     images: [
@@ -172,7 +172,7 @@ export const products = [
     discountPercentage: 6.18,
     rating: 4.43,
     stock: 89,
-    brand: 'HP Pavilion',
+    name: 'HP Pavilion',
     category: 'laptops',
     thumbnail: 'https://i.dummyjson.com/data/products/10/thumbnail.jpeg',
     images: [
@@ -191,7 +191,7 @@ export const products = [
     discountPercentage: 8.4,
     rating: 4.26,
     stock: 65,
-    brand: 'Impression of Acqua Di Gio',
+    name: 'Impression of Acqua Di Gio',
     category: 'fragrances',
     thumbnail: 'https://i.dummyjson.com/data/products/11/thumbnail.jpg',
     images: [
@@ -209,7 +209,7 @@ export const products = [
     discountPercentage: 15.66,
     rating: 4,
     stock: 52,
-    brand: 'Royal_Mirage',
+    name: 'Royal_Mirage',
     category: 'fragrances',
     thumbnail: 'https://i.dummyjson.com/data/products/12/thumbnail.jpg',
     images: [
@@ -229,7 +229,7 @@ export const products = [
     discountPercentage: 8.14,
     rating: 4.59,
     stock: 61,
-    brand: 'Fog Scent Xpressio',
+    name: 'Fog Scent Xpressio',
     category: 'fragrances',
     thumbnail: 'https://i.dummyjson.com/data/products/13/thumbnail.webp',
     images: [
@@ -249,7 +249,7 @@ export const products = [
     discountPercentage: 15.6,
     rating: 4.21,
     stock: 114,
-    brand: 'Al Munakh',
+    name: 'Al Munakh',
     category: 'fragrances',
     thumbnail: 'https://i.dummyjson.com/data/products/14/thumbnail.jpg',
     images: [
@@ -267,7 +267,7 @@ export const products = [
     discountPercentage: 10.99,
     rating: 4.7,
     stock: 105,
-    brand: 'Lord - Al-Rehab',
+    name: 'Lord - Al-Rehab',
     category: 'fragrances',
     thumbnail: 'https://i.dummyjson.com/data/products/15/thumbnail.jpg',
     images: [
@@ -287,7 +287,7 @@ export const products = [
     discountPercentage: 13.31,
     rating: 4.83,
     stock: 110,
-    brand: "L'Oreal Paris",
+    name: "L'Oreal Paris",
     category: 'skincare',
     thumbnail: 'https://i.dummyjson.com/data/products/16/thumbnail.jpg',
     images: [
@@ -307,7 +307,7 @@ export const products = [
     discountPercentage: 4.09,
     rating: 4.52,
     stock: 78,
-    brand: 'Hemani Tea',
+    name: 'Hemani Tea',
     category: 'skincare',
     thumbnail: 'https://i.dummyjson.com/data/products/17/thumbnail.jpg',
     images: [
@@ -326,7 +326,7 @@ export const products = [
     discountPercentage: 13.1,
     rating: 4.56,
     stock: 88,
-    brand: 'Dermive',
+    name: 'Dermive',
     category: 'skincare',
     thumbnail: 'https://i.dummyjson.com/data/products/18/thumbnail.jpg',
     images: [
@@ -346,7 +346,7 @@ export const products = [
     discountPercentage: 10.68,
     rating: 4.42,
     stock: 54,
-    brand: 'ROREC White Rice',
+    name: 'ROREC White Rice',
     category: 'skincare',
     thumbnail: 'https://i.dummyjson.com/data/products/19/thumbnail.jpg',
     images: [
@@ -365,7 +365,7 @@ export const products = [
     discountPercentage: 16.99,
     rating: 4.06,
     stock: 140,
-    brand: 'Fair & Clear',
+    name: 'Fair & Clear',
     category: 'skincare',
     thumbnail: 'https://i.dummyjson.com/data/products/20/thumbnail.jpg',
     images: [
@@ -379,12 +379,12 @@ export const products = [
   {
     id: 21,
     title: '- Daal Masoor 500 grams',
-    description: 'Fine quality Branded Product Keep in a cool and dry place',
+    description: 'Fine quality nameed Product Keep in a cool and dry place',
     price: 20,
     discountPercentage: 4.81,
     rating: 4.44,
     stock: 133,
-    brand: 'Saaf & Khaas',
+    name: 'Saaf & Khaas',
     category: 'groceries',
     thumbnail: 'https://i.dummyjson.com/data/products/21/thumbnail.png',
     images: [
@@ -401,7 +401,7 @@ export const products = [
     discountPercentage: 15.58,
     rating: 4.57,
     stock: 146,
-    brand: 'Bake Parlor Big',
+    name: 'Bake Parlor Big',
     category: 'groceries',
     thumbnail: 'https://i.dummyjson.com/data/products/22/thumbnail.jpg',
     images: [
@@ -418,7 +418,7 @@ export const products = [
     discountPercentage: 8.04,
     rating: 4.85,
     stock: 26,
-    brand: 'Baking Food Items',
+    name: 'Baking Food Items',
     category: 'groceries',
     thumbnail: 'https://i.dummyjson.com/data/products/23/thumbnail.jpg',
     images: [
@@ -438,7 +438,7 @@ export const products = [
     discountPercentage: 16.8,
     rating: 4.94,
     stock: 113,
-    brand: 'fauji',
+    name: 'fauji',
     category: 'groceries',
     thumbnail: 'https://i.dummyjson.com/data/products/24/thumbnail.jpg',
     images: [
@@ -457,7 +457,7 @@ export const products = [
     discountPercentage: 13.58,
     rating: 4.87,
     stock: 47,
-    brand: 'Dry Rose',
+    name: 'Dry Rose',
     category: 'groceries',
     thumbnail: 'https://i.dummyjson.com/data/products/25/thumbnail.jpg',
     images: [
@@ -476,7 +476,7 @@ export const products = [
     discountPercentage: 17.86,
     rating: 4.08,
     stock: 131,
-    brand: 'Boho Decor',
+    name: 'Boho Decor',
     category: 'home-decoration',
     thumbnail: 'https://i.dummyjson.com/data/products/26/thumbnail.jpg',
     images: [
@@ -497,7 +497,7 @@ export const products = [
     discountPercentage: 15.58,
     rating: 4.41,
     stock: 17,
-    brand: 'Flying Wooden',
+    name: 'Flying Wooden',
     category: 'home-decoration',
     thumbnail: 'https://i.dummyjson.com/data/products/27/thumbnail.webp',
     images: [
@@ -517,7 +517,7 @@ export const products = [
     discountPercentage: 16.49,
     rating: 4.82,
     stock: 54,
-    brand: 'LED Lights',
+    name: 'LED Lights',
     category: 'home-decoration',
     thumbnail: 'https://i.dummyjson.com/data/products/28/thumbnail.jpg',
     images: [
@@ -537,7 +537,7 @@ export const products = [
     discountPercentage: 15.34,
     rating: 4.44,
     stock: 7,
-    brand: 'luxury palace',
+    name: 'luxury palace',
     category: 'home-decoration',
     thumbnail: 'https://i.dummyjson.com/data/products/29/thumbnail.webp',
     images: [
@@ -557,7 +557,7 @@ export const products = [
     discountPercentage: 2.92,
     rating: 4.92,
     stock: 54,
-    brand: 'Golden',
+    name: 'Golden',
     category: 'home-decoration',
     thumbnail: 'https://i.dummyjson.com/data/products/30/thumbnail.jpg',
     images: [

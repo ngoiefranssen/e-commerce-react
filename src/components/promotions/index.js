@@ -1,49 +1,53 @@
+import { Slide } from '@mui/material';
+import { Box } from '@mui/system';
 import { useEffect, useRef, useState } from 'react';
 import { MessageText, PromotionsContainer } from '../../styles/promotions';
-import { Box, Slide } from '@mui/material';
 
 const messages = [
-  '15% off on your first  order!',
-  'Summer sale starts now, visit  any store.',
+  '20% off on your first order!',
+  'Summer sale starts now, visit any store.',
   'Please like and subscribe :)'
 ];
-
-export const Promotions = () => {
-  const [messageIndex, setMessageIndex] = useState(0);
-  const [view, setView] = useState(true);
-
+export default function Promotions() {
   const containerRef = useRef();
-
+  const [show, setShow] = useState(true);
+  const [messageIndex, setMessageIndex] = useState(0);
   useEffect(() => {
     setTimeout(() => {
-      setView(false);
+      setShow(false);
     }, 3000);
-
-    const intervalById = setInterval(() => {
+    const intervalId = setInterval(() => {
+      // get next message
       setMessageIndex((i) => (i + 1) % messages.length);
-      setView(true);
+
+      // slide the message in
+      setShow(true);
 
       setTimeout(() => {
-        setView(false);
+        setShow(false);
       }, 3000);
     }, 4000);
 
     return () => {
-      clearInterval(intervalById);
+      clearInterval(intervalId);
     };
   }, []);
+
   return (
-    <PromotionsContainer ref={containerRef}>
+    <PromotionsContainer ref={containerRef} overflow="hidden">
       <Slide
+        direction={show ? 'left' : 'right'}
+        in={show}
         container={containerRef.current}
-        direction={view ? 'left' : 'right'}
-        in={view}
-        timeout={{ enter: 500, exit: 300 }}
+        timeout={{
+          enter: 500,
+          exit: 100
+        }}
       >
-        <Box display={'flex'} justifyContent="center" alignItems={'center'}>
+        <Box display="flex" justifyContent="center" alignItems="center">
           <MessageText>{messages[messageIndex]}</MessageText>
         </Box>
       </Slide>
     </PromotionsContainer>
   );
-};
+}

@@ -2,6 +2,8 @@
 import { Typography, useMediaQuery } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import React from 'react';
+import { BannerShopButton } from '../../styles/banner';
+
 import {
   BannerContanair,
   BannerContent,
