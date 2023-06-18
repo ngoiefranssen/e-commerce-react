@@ -12,12 +12,13 @@ const AppBarDesktop_ = ({ Matches }) => {
   return (
     // <componentMix>
     <AppBarContainer>
-      <AppBarHeader>My Shop</AppBarHeader>
+      <AppBarHeader variant="h4">My Shop</AppBarHeader>
       <MyList type="row">
         <ListItemText primary="Home" />
         <ListItemText primary="Categories" />
         <ListItemText primary="Products" />
         <ListItemText primary="Contact Us" />
+        <ListItemButton onClick={() => setShowSearchBox(true)}></ListItemButton>
         <ListItemButton>
           <ListItemIcon>
             <Search />
