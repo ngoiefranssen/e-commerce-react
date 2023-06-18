@@ -20,11 +20,6 @@ export const textPopUpTop = keyframes`
   }
 `;
 
-/**
- * ----------------------------------------
- * animation slide-in-bottom
- * ----------------------------------------
- */
 export const slideInBottom = keyframes`
   0% {
     -webkit-transform: translateY(50px);
