@@ -34,11 +34,6 @@ export const slideInBottom = keyframes`
 
 `;
 
-/**
- * ----------------------------------------
- * animation slide-in-right
- * ----------------------------------------
- */
 export const slideInRight = keyframes`
   0% {
     -webkit-transform: translateX(50px);
