@@ -7,24 +7,26 @@ import Actions from './Actions';
 
 // eslint-disable-next-line no-unused-vars
 const AppBarDesktop_ = ({ Matches }) => {
+  const { setShowSearchBox } = useUIContext();
+
   return (
-    <componentMix>
-      <AppBarContainer>
-        <AppBarHeader>My Shop</AppBarHeader>
-        <MyList type="row">
-          <ListItemText primary="Home" />
-          <ListItemText primary="Categories" />
-          <ListItemText primary="Products" />
-          <ListItemText primary="Contact Us" />
-          <ListItemButton>
-            <ListItemIcon>
-              <Search />
-            </ListItemIcon>
-          </ListItemButton>
-        </MyList>
-        <Actions Matches={Matches} />
-      </AppBarContainer>
-    </componentMix>
+    // <componentMix>
+    <AppBarContainer>
+      <AppBarHeader>My Shop</AppBarHeader>
+      <MyList type="row">
+        <ListItemText primary="Home" />
+        <ListItemText primary="Categories" />
+        <ListItemText primary="Products" />
+        <ListItemText primary="Contact Us" />
+        <ListItemButton>
+          <ListItemIcon>
+            <Search />
+          </ListItemIcon>
+        </ListItemButton>
+      </MyList>
+      <Actions Matches={Matches} />
+    </AppBarContainer>
+    // </componentMix>
   );
 };
 
