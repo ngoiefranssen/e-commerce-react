@@ -7,15 +7,16 @@ import Actions from './Actions';
 
 // eslint-disable-next-line no-unused-vars
 const AppBarMobile_ = ({ Matches }) => {
+  const { setDrawerOpen, setShowSearchBox } = useUIContext();
   return (
     <AppBarContainer>
-      <IconButton>
+      <IconButton onClick={() => setDrawerOpen(true)}>
         <MenuItem />
       </IconButton>
       <AppBarHeader textAlign="center" variant="h4">
         My Shop
       </AppBarHeader>
-      <IconButton>
+      <IconButton onClick={() => setShowSearchBox(true)}>
         <Search />
       </IconButton>
       <Actions Matches={Matches} />
