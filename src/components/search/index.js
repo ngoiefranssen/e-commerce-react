@@ -1,11 +1,11 @@
-import { Button, IconButton, Slide, TextField } from '@mui/material';
+import { IconButton, Slide, TextField } from '@mui/material';
 import { Box, styled } from '@mui/system';
 import { Colors } from '../../styles/theme';
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 import { useUIContext } from '../../context/ui';
 
-const SearchBoxContainer = styled(Box)(({ theme }) => ({
+const SearchBoxContainer = styled(Box)(() => ({
   position: 'absolute',
   top: 0,
   left: 0,

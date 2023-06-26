@@ -6,7 +6,7 @@ import {
   ProductAddToCart,
   ProductFavButton,
   ProductImage
-} from '../../styles/product';
+} from '../../styles/products';
 import { Stack, Tooltip } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';

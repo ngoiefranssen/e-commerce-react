@@ -1,10 +1,9 @@
 /* eslint-disable react/jsx-pascal-case */
-import './App.css';
 import AppBar_ from '../components/appbar/index';
-import theme from './styles/theme';
+import theme from '../styles/theme';
 import { Box, Container, Stack, ThemeProvider, Typography } from '@mui/material';
 import Banner from '../components/banner';
-import { Promotions } from '../components/promotions';
+import * as Promotions from '../components/promotions';
 import Products from '../components/products';
 import { useEffect } from 'react';
 import { UIProvider } from '../context/ui';

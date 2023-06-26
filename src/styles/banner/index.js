@@ -1,6 +1,7 @@
-import styled from '@emotion/material/styled';
+// import styled from '@emotion/material/s';
 import { Box, Typography } from '@mui/material';
 import { Colors } from '../theme';
+import styled from '@emotion/styled';
 
 export const BannerContanair = styled(Box)(({ theme }) => ({
   display: 'flex',

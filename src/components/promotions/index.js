@@ -8,7 +8,7 @@ const messages = [
   'Summer sale starts now, visit any store.',
   'Please like and subscribe :)'
 ];
-export default function Promotions() {
+const Promotions = () => {
   const containerRef = useRef();
   const [show, setShow] = useState(true);
   const [messageIndex, setMessageIndex] = useState(0);
@@ -17,10 +17,8 @@ export default function Promotions() {
       setShow(false);
     }, 3000);
     const intervalId = setInterval(() => {
-      // get next message
       setMessageIndex((i) => (i + 1) % messages.length);
 
-      // slide the message in
       setShow(true);
 
       setTimeout(() => {
@@ -50,4 +48,6 @@ export default function Promotions() {
       </Slide>
     </PromotionsContainer>
   );
-}
+};
+
+export default Promotions;
