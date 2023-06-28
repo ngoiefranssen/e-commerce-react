@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import {
   Product,
@@ -12,7 +13,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import FitScreenIcon from '@mui/icons-material/FitScreen';
 import useDialogModal from '../../hooks/useDialogModal';
-import ProductDetail from '../productdetail';
+import ProductDetail from '../productDetail';
 import ProductMeta from './ProductMeta';
 
 export default function SingleProductDesktop({ product, matches }) {

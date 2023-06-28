@@ -20,9 +20,9 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import { useTheme } from '@mui/material/styles';
 import { useMediaQuery } from '@mui/material';
 
-function SlideTransition(props) {
+const SlideTransition = (props) => {
   return <Slide direction="down" {...props} />;
-}
+};
 
 const ProductDetailWrapper = styled(Box)(({ theme }) => ({
   display: 'flex',
@@ -93,3 +93,5 @@ export default function ProductDetail({ open, onClose, product }) {
     </Dialog>
   );
 }
+
+// export default ProductDetail;

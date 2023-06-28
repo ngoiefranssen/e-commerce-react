@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from 'react';
 import {
   Product,
@@ -6,13 +7,13 @@ import {
   ProductAddToCart,
   ProductFavButton,
   ProductImage
-} from '../../styles/product';
+} from '../../styles/products';
 import { Stack, Tooltip } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import FitScreenIcon from '@mui/icons-material/FitScreen';
 import useDialogModal from '../../hooks/useDialogModal';
-import ProductDetail from '../productdetail';
+import ProductDetail from '../productDetail';
 import ProductMeta from './ProductMeta';
 
 export default function SingleProduct({ product, matches }) {
@@ -29,7 +30,7 @@ export default function SingleProduct({ product, matches }) {
   return (
     <>
       <Product onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        <ProductImage src={product.image} />
+        <ProductImage src={product?.image} />
         <ProductMeta product={product} matches={matches} />
         <ProductActionsWrapper>
           <Stack direction={matches ? 'row' : 'column'}>

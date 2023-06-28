@@ -1,13 +1,13 @@
 import { Divider, Drawer, List, ListItemButton, ListItemText, styled } from '@mui/material';
 import { useUIContext } from '../../context/ui';
 import CloseIcon from '@mui/icons-material/Close';
-import { DrawerCloseButton } from '../../styles/appBar';
-import { lighten } from 'polished';
-import { Colors } from '../../styles/theme';
+import * as DrawerCloseButton from '../../styles/appBar';
+// import { lighten } from 'polished';
+// import { Colors } from '../../styles/theme';
 
 const MiddleDivider = styled((props) => <Divider variant="middle" {...props} />)``;
 
-export default function AppDrawer() {
+const AppDrawer = () => {
   const { drawerOpen, setDrawerOpen } = useUIContext();
 
   return (
@@ -16,8 +16,8 @@ export default function AppDrawer() {
         <DrawerCloseButton onClick={() => setDrawerOpen(false)}>
           <CloseIcon
             sx={{
-              fontSize: '2.5rem',
-              color: lighten(0.09, Colors.secondary)
+              fontSize: '2.5rem'
+              // color: lighten(0.09, Colors.secondary)
             }}
           />
         </DrawerCloseButton>
@@ -48,4 +48,6 @@ export default function AppDrawer() {
       </Drawer>
     </>
   );
-}
+};
+
+export default AppDrawer;
